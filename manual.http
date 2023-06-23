@@ -5,23 +5,23 @@ Accept: application/json
 Content-Type: application/json
 
 {
-  "namalengkap": "",
-  "username" : "",
-  "password" : "",
-  "status" : ""
+  "namalengkap": "Joko Susanto",
+  "username" : "jokoaja",
+  "password" : "rahasia",
+  "status" : "Active"
 }
 
 
 ### Get User
 
-GET http://localhost:8080/api/users/joko123
+GET http://localhost:8080/api/users/jokoaja
 Accept: application/json
 Content-Type: application/json
 
 
 ### Remove Data Users
 
-DELETE http://localhost:8080/api/users/joko123
+DELETE http://localhost:8080/api/users/jokoaja
 Accept: application/json
 Content-Type: application/json
 

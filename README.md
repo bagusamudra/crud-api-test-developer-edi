@@ -10,14 +10,10 @@ Request Body :
 
 ```json
 {
-  "data": {
-    "userid": "43f0e647-9b2d-4a60-86a0-62e79c96622b",
     "namalengkap": "Bagus Adji Samudra",
     "username": "bagusamudra",
     "password": "rahasia",
     "status": "Active"
-  },
-  "errors": null
 }
 ```
 
@@ -45,10 +41,14 @@ Response Body (Success) :
 
 ```json
 {
-  "data" : {
-    "username" : "bagusamudra",
-    "name" : "Bagus Adji Samudra"
-  }
+  "data": {
+    "userid": "43f0e647-9b2d-4a60-86a0-62e79c96622b",
+    "namalengkap": "Joko Kendil",
+    "username": "joko123",
+    "password": "rahasia",
+    "status": "Active"
+  },
+  "errors": null
 }
 ```
 
