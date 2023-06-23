@@ -1,0 +1,27 @@
+### Insert User
+
+POST http://localhost:8080/api/users
+Accept: application/json
+Content-Type: application/json
+
+{
+  "namalengkap": "",
+  "username" : "",
+  "password" : "",
+  "status" : ""
+}
+
+
+### Get User
+
+GET http://localhost:8080/api/users/joko123
+Accept: application/json
+Content-Type: application/json
+
+
+### Remove Data Users
+
+DELETE http://localhost:8080/api/users/joko123
+Accept: application/json
+Content-Type: application/json
+
